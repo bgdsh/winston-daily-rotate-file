@@ -1,6 +1,6 @@
 {
   "name": "winston-daily-rotate-file-upgrade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A transport for winston which logs to a rotating file each day. \n Compared with the original version, this one fixed a bug in Node 8+",
   "main": "index.js",
   "types": "index.d.ts",
