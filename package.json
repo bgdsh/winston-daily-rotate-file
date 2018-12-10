@@ -1,11 +1,11 @@
 {
-  "name": "winston-daily-rotate-file",
+  "name": "winston-daily-rotate-file-upgrade",
   "version": "3.5.1",
-  "description": "A transport for winston which logs to a rotating file each day.",
+  "description": "A transport for winston which logs to a rotating file each day. \n Compared with the original version, this one fixed a bug in Node 8+",
   "main": "index.js",
   "types": "index.d.ts",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "mocha && eslint .",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:winstonjs/winston-daily-rotate-file.git"
+    "url": "git@github.com:bgdsh/winston-daily-rotate-file.git"
   },
   "keywords": [
     "winston",
@@ -22,12 +22,12 @@
     "log-rotate",
     "logrotate"
   ],
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "author": "Bain Bai <bgd_sh@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/winstonjs/winston-daily-rotate-file/issues"
+    "url": "https://github.com/bgdsh/winston-daily-rotate-file/issues"
   },
-  "homepage": "https://github.com/winstonjs/winston-daily-rotate-file#readme",
+  "homepage": "https://github.com/bgdsh/winston-daily-rotate-file#readme",
   "peerDependencies": {
     "winston": "^2 || ^3"
   },
